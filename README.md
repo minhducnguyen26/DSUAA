@@ -8,7 +8,8 @@ For a long time, when I needed to let my supervisor know what items we need to b
 <p>&nbsp;</p>
 
 ## II. How does it work?
-I designed this web application to perform best for a team of two or more people. In this web app, there are three pages and each one of them holds a specific roles and for a specific person:
+I designed this web application to perform best for a team of two or more people. In this web app, there are three pages and each one of them holds a specific roles and for a specific person: 
+*The images are blurry in Markdown, please click on the images for better quality.*
 
   * **ITEMS** page (for Student Assistant): This is where I get all of the snacks, coffees, and teas we have in the office from a database and display it as a table. In this page, I can search, add, edit, and remove any item and all of the changes will be saved to the database.
    
