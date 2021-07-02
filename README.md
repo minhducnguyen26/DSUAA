@@ -1,5 +1,7 @@
 # DSUAA
 
+**Notes:** The images are blurry in Markdown, please click on the images for better quality.
+
 ## I. Why this web application?
 From January 2020 to April 2021, I worked as a Student Assistant for the Student Affairs and the Academic Affairs departments at Dixie State University. In the office, we had snacks, coffees, and teas for all of the staff members, students, and visitors. Part of my responsibilities was to taking care of the inventory of all the items we had, including checking and restocking them daily, as well as informing my supervisor if we needed to purchase more items. 
 
@@ -9,7 +11,6 @@ For a long time, when I needed to let my supervisor know what items we need to b
 
 ## II. How does it work?
 I designed this web application to perform best for a team of two or more people. In this web app, there are three pages and each one of them holds a specific roles and for a specific person: 
-*The images are blurry in Markdown, please click on the images for better quality.*
 
   * **ITEMS** page (for Student Assistant): This is where I get all of the snacks, coffees, and teas we have in the office from a database and display it as a table. In this page, I can search, add, edit, and remove any item and all of the changes will be saved to the database.
    
