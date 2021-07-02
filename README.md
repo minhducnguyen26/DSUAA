@@ -1,6 +1,6 @@
 # DSUAA
 
-**Notes:** The images are blurry in Markdown, please click on each one of them for better quality.
+**Note:** The images are blurry in Markdown, please click on each one of them for better quality.
 
 ## I. Why this web application?
 From January 2020 to April 2021, I worked as a Student Assistant for the Student Affairs and the Academic Affairs departments at Dixie State University. In the office, we had snacks, coffees, and teas for all of the staff members, students, and visitors. Part of my responsibilities was to taking care of the inventory of all the items we had, including checking and restocking them daily, as well as informing my supervisor if we needed to purchase more items. 
@@ -43,3 +43,10 @@ I designed this web application to perform best for a team of two or more people
 <p>&nbsp;</p>
 
 ## III. What did I use to build it?
+   * Front-end:
+      ** HTML and CSS for layout and styling (responsive)
+      ** JavaScript for fetching data and any interactions on the web app
+   * Back-end:
+      ** Python server
+      ** SQLite3 database before deployment
+      ** PostgreSQL database after deployment
