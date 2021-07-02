@@ -44,9 +44,9 @@ I designed this web application to perform best for a team of two or more people
 
 ## III. What did I use to build it?
    * Front-end:
-      ** HTML and CSS for layout and styling (responsive)
-      ** JavaScript for fetching data and any interactions on the web app
+      * HTML and CSS for layout and styling (responsive)
+      * JavaScript for fetching data and any interactions on the web app
    * Back-end:
-      ** Python server
-      ** SQLite3 database before deployment
-      ** PostgreSQL database after deployment
+      * Python server
+      * SQLite3 database before deployment
+      * PostgreSQL database after deployment
