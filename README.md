@@ -51,8 +51,8 @@ I designed this web application to perform best for a team of two or more people
       * Python server
       * SQLite3 database before deployment
       * PostgreSQL database after deployment
-    
-    * Hosting:
+
+   * Hosting:
       * AlterVista (front-end)
       * Heroku (back-end)
 
