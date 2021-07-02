@@ -42,11 +42,20 @@ I designed this web application to perform best for a team of two or more people
    
 <p>&nbsp;</p>
 
-## III. What did I use to build it?
+## III. How did I build it?
    * Front-end:
       * HTML and CSS for layout and styling (responsive)
-      * JavaScript for fetching data and any interactions on the web app
+      * JavaScript for fetching data and every interactions on the web app
+    
    * Back-end:
       * Python server
       * SQLite3 database before deployment
       * PostgreSQL database after deployment
+    
+    * Hosting:
+      * AlterVista (front-end)
+      * Heroku (back-end)
+
+<p>&nbsp;</p>
+
+This was a project that I really enjoyed working on, not only because I learned so much about working with both the front-end and the back-end when building a web application, but also because I could use what I learned to build things that helped improving the productivity and save time at work. 
