@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+    --sidebar-color: #3C737C;
+    --text-color: #F8FAEC;
+    --title-color: #221F24;
+    --hover-color: #ee6205;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar {
+    width: 15%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: var(--sidebar-color);
+}
+
+.sidebar_menu li {
+    width: 100%;
+}
+
+.sidebar_menu li:hover {
+    cursor: pointer;
+    background: var(--hover-color);
+}
+
+.sidebar_menu li img {
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.sidebar_options {
+    display: inline-block;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.sidebar_icon {
+    color: var(--text-color);
+    font-size: 25px;
+    margin: 0 10px 0 5px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: inline-block; 
+    height: 100%; 
+    width: 100%; 
+    padding: 1em 0 1em 2rem;
+}
+
+
+#input {
+    width: 100%;
+    padding: 8px 20px 8px 40px;
+    border: 1px solid var(--title-color);
+    border-radius: 30px;
+    outline: none;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+    .sidebar {
+        display: none;
+    }
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>DSU-AA :: Items</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Web App for DSU Academic Affairs Assistant">
+	<meta name="author" content="Minh Nguyen">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="items.css">
+    <link rel="stylesheet" type="text/css" href="../mobile_nav.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+<body id="body">
+    <div class="main_content">
+        <div class="sidebar">
+            <div class="sidebar_logo">
+                <img src="">
+            </div>
+            <div class="sidebar_menu">
+                <ul>
+                   <li id="to_buy_list"><a href="../To Buy List/index.html">
+                        <span class="sidebar_icon las la-clipboard-list"></span>
+                        <span class="sidebar_options">To Buy List</span>
+                    </a></li> 
+                    <li id="cart"><a href="../Cart/cart.html">
+                        <span class="sidebar_icon las la-shopping-cart"></span>
+                        <span class="sidebar_options">Cart</span>
+                    </a></li> 
+                    <li id="items"><a href="../Items/items.html">
+                        <span class="sidebar_icon las la-shapes"></span>
+                        <span class="sidebar_options">Items</span>
+                    </a></li> 
+                 </ul>
+            </div>
+        </div>
+
+        <div class="main_actions">
+            <nav id="mobile_nav">
+                <div id="menu_toggle">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="mobile_menu">
+                        <a href="../To Buy List/index.html"><li>To Buy List</li></a>
+                        <a href="../Cart/cart.html"><li>Cart</li></a>
+                        <a href="../Items/items.html"><li>Items</li></a>
+                    </ul>
+                </div>
+            </nav>
+
+            <input type="text" id="mobile_nav_input" placeholder="Search for names..">
+            
+            <div class="open_add_item">
+                <span id="open_add_item" class="las la-plus-circle"></span>
+            </div>
+        </div> 
+    
+        <div class="grid_container">
+            <div class="grid_item">
+                <input type="text" id="input" placeholder="Search for names..">
+                
+                <div class="items_table">
+                    <table id="items_table">
+                        <tr class="sticky">
+                            <th>Item Name</th>
+                            <th>Price</th>
+                            <th>View</th>
+                            <th>Delete</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+    
+            <div id="add_item" class="actions">
+                <div class="grid_rows">
+                    <div id="add_item_main" class="action_name">
+                        <span>Add New Items</span>
+                        <div class="close_button media_screen">
+                            <i class="las la-times-circle"></i>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <div class="input_new_items">
+                            <span class="title_1">Name: </span>
+                            <input id="new_name" type="text">
+                        </div>
+                        <div class="input_new_items">
+                            <span class="title_2">Location: </span>
+                            <input id="new_location" type="text">
+                        </div>
+                        <div class="input_new_items">
+                            <span class="title_3">Price: </span>
+                            <input id="new_price" type="text">
+                        </div>
+                        <div class="input_new_items">
+                            <span class="title_4_add_items">Image:</span>
+                            <input id="new_image" type="text">
+                        </div>
+            
+                        <button class="save_new_items">Add</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="view_item" class="actions">
+                <div class="grid_rows">
+                    <div id="view_item_main" class="action_name">
+                        <div>Item Information</div>
+                        <div class="close_button">
+                            <i class="las la-times-circle"></i>
+                        </div>
+                    </div>
+        
+                    <div>
+                        <div class="input_new_items">
+                            <span class="title_1">Name: </span>
+                            <span id="view_name" class="view_item_text"></span>
+                        </div>
+                        <div class="input_new_items">
+                            <span class="title_2">Location: </span>
+                            <span id="view_location" class="view_item_text"></span>
+                        </div>
+                        <div class="input_new_items">
+                            <span class="title_3">Price: </span>
+                            <span id="view_price" class="view_item_text"></span>
+                        </div>
+                        <div class="input_new_items">
+                            <span class="title_4">Image:</span>
+                            <span id="view_image" class="view_item_text"></span>
+                        </div>
+                        <div class="image_in_view_item"></div>
+                    </div>
+        
+                    <button class="open_edit_box">Edit</button>
+                </div>
+            </div>
+    
+            <div id="edit_item" class="actions">
+                <div class="grid_rows">
+                    <div id="edit_item_main" class="action_name">
+                        <div>Edit Item</div>
+                        <div class="close_button">
+                            <i class="las la-times-circle"></i>
+                        </div>
+                    </div>
+        
+                    <div>
+                        <div class="input_new_items">
+                            <span class="title_1">Name: </span>
+                            <input id="edit_name_input" type="text">
+                        </div>
+                        <div class="input_new_items">
+                            <span class="title_2">Location: </span>
+                            <input id="edit_location_input" type="text">
+                        </div>
+                        <div class="input_new_items">
+                            <span class="title_3">Price: </span>
+                            <input id="edit_price_input" type="text">
+                        </div>
+                        <div class="input_new_items">
+                            <span class="title_4">Image:</span>
+                            <input id="edit_image_input" type="text">
+                        </div>
+                        <div class="image_in_edit_item"></div>
+                    </div>
+        
+                    <button class="save_new_edit">Save</button>
+                </div>
+            </div>
+        </div>
+    
+        <section id="confirmation" class="modal" >
+            <div class="modal_content animate">
+                <div class="x_close">
+                    <span class="close">&times;</span>
+                </div>
+                <h2 class="section_header">Confirmation</h2>
+    
+                <div class="pre_confirmation">
+                    <div class="confirmation_text">Do you want to delete this item?</div>
+                    <div class="confirmation_name"></div>
+                    <div class="buttons_div">
+                        <button class="confirm_buttons confirm_yes">Yes</button>
+                        <button class="confirm_buttons confirm_no">No</button>
+                    </div>
+                </div>
+    
+                <div class="post_confirmation">
+                    <div class="post_confirmation_name"></div>
+                    <div class="post_confirmation_text">is deleted.</div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="items.js"></script>
+</body>
+</html>

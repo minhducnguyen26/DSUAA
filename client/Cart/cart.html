@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>DSU-AA :: Cart</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Web App for DSU Academic Affairs Assistant">
+	<meta name="author" content="Minh Nguyen">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="cart.css">
+    <link rel="stylesheet" type="text/css" href="../mobile_nav.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+<body id="body">
+    <div class="main_content">
+        <div class="sidebar">
+            <div class="sidebar_logo">
+                <img src="">
+            </div>
+            <div class="sidebar_menu">
+                <ul>
+                   <li id="to_buy_list"><a href="../To Buy List/index.html">
+                        <span class="sidebar_icon las la-clipboard-list"></span>
+                        <span class="sidebar_options">To Buy List</span>
+                    </a></li> 
+                    <li id="cart"><a href="../Cart/cart.html">
+                        <span class="sidebar_icon las la-shopping-cart"></span>
+                        <span class="sidebar_options">Cart</span>
+                    </a></li> 
+                    <li id="items"><a href="../Items/items.html">
+                        <span class="sidebar_icon las la-shapes"></span>
+                        <span class="sidebar_options">Items</span>
+                    </a></li> 
+                 </ul>
+            </div>
+        </div>
+    
+        <div id="items_menu" class="main_container">
+            <div class="main_actions">
+                <nav id="mobile_nav">
+                    <div id="menu_toggle">
+                        <input type="checkbox">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="mobile_menu">
+                            <a href="../To Buy List/index.html"><li>To Buy List</li></a>
+                            <a href="../Cart/cart.html"><li>Cart</li></a>
+                            <a href="../Items/items.html"><li>Items</li></a>
+                        </ul>
+                    </div>
+                </nav>
+
+                <input type="text" id="input" placeholder="Search for names..">
+                
+                <div class="open_cart">
+                    <span id="open_cart" class="las la-shopping-cart"></span>
+                    <div class="items_counter">0</div>
+                </div>
+            </div>   
+            
+            <div class="all_items">
+                <div class="row"></div>
+            </div>
+        </div>
+
+        <div id="main_cart" class="main_container">
+            <div class="main_actions_cart">
+                <div class="cart_title">Cart</div>
+                <div class="close_cart_button">
+                    <i class="las la-times-circle"></i>
+                </div>
+            </div>
+
+            <div class="cart_row">
+                <span class="cart_item cart_header cart_column">ITEM</span>
+                <span class="cart_price cart_header cart_column">PRICE</span>
+                <span class="cart_quantity cart_header cart_column">QUANTITY</span>
+            </div>
+
+            <div class="cart_items">
+            </div>
+
+            <div class="cart_total">
+                <span class="total_title">Estimate Total Price:</span>
+                <span class="total_price">$0.00</span>
+            </div>
+
+            <button class="save_cart_button" type="button">Save</button>
+        </div>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
