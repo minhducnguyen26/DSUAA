@@ -40,4 +40,6 @@ I designed this web application to perform best for a team of two or more people
       <img src="http://d00411122.altervista.org/DSUAA/images/github/to_buy_list.png" alt="To Buy List page" width="100%">
    </p>
    
- 
+<p>&nbsp;</p>
+
+## III. What did I use to build it?
